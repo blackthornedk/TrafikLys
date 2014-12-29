@@ -11,3 +11,7 @@ Soekrisen.
 TrafficLigthSerial.ino er Arduino sketchen der kører på Uno'en.
 LED'erne er koblet på port 2 til 9, der er indstillet som outputs.
 LED'erne sourcer altså fra Arduinoen.
+
+Protokollen over seriel bussen, er at sende et tal fra 0 til 8.
+0 svarer til mellem 0 og 100 Mbit forbrug.
+8 starer til 500 Mbit.
